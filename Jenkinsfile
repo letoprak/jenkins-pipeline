@@ -14,7 +14,7 @@ pipeline {
 
     stage('Install Dependencies') {
       steps {
-        Echo 'Simulating installing dependencies…'
+        echo 'Simulating installing dependencies…'
       }
     }
 
